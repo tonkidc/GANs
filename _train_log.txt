@@ -1,0 +1,12 @@
+device: cuda
+epoch 1/10 done  loss_d=0.536 loss_g=1.045
+epoch 2/10 done  loss_d=0.215 loss_g=2.746
+epoch 3/10 done  loss_d=0.257 loss_g=2.513
+epoch 4/10 done  loss_d=0.147 loss_g=4.793
+epoch 5/10 done  loss_d=0.131 loss_g=4.322
+epoch 6/10 done  loss_d=0.032 loss_g=4.128
+epoch 7/10 done  loss_d=0.016 loss_g=4.709
+epoch 8/10 done  loss_d=0.062 loss_g=3.100
+epoch 9/10 done  loss_d=0.496 loss_g=1.400
+epoch 10/10 done  loss_d=0.167 loss_g=3.033
+TRAINING COMPLETE

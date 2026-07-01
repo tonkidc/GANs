@@ -1,0 +1,8 @@
+device: cuda
+MIOpen(HIP): Warning [IsEnoughWorkspace] [GetSolutionsFallback WTI] Solver <GemmFwdRest>, workspace required: 1048576, provided ptr: 0000000000000000 size: 0
+MIOpen(HIP): Warning [IsEnoughWorkspace] [EvaluateInvokers] Solver <GemmFwdRest>, workspace required: 1048576, provided ptr: 0000000000000000 size: 0
+MIOpen(HIP): Warning [IsEnoughWorkspace] [GetSolutionsFallback WTI] Solver <GemmFwdRest>, workspace required: 262144, provided ptr: 0000000000000000 size: 0
+MIOpen(HIP): Warning [IsEnoughWorkspace] [EvaluateInvokers] Solver <GemmFwdRest>, workspace required: 262144, provided ptr: 0000000000000000 size: 0
+MIOpen(HIP): Warning [IsEnoughWorkspace] [GetSolutionsFallback WTI] Solver <GemmFwdRest>, workspace required: 65536, provided ptr: 0000000000000000 size: 0
+MIOpen(HIP): Warning [IsEnoughWorkspace] [EvaluateInvokers] Solver <GemmFwdRest>, workspace required: 65536, provided ptr: 0000000000000000 size: 0
+epoch 1/10 done  loss_c=-5.85 W_dist=6.92

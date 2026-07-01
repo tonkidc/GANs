@@ -1,0 +1,10 @@
+# Dataset (auto-downloads via torchvision, no need to upload)
+data/
+
+# Weights & Biases run logs
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
