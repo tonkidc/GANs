@@ -1,0 +1,23 @@
+{
+  "rows": [
+    {
+      "gen": 0,
+      "kimg": 1000,
+      "n_fake": 5000,
+      "fid": 28.674,
+      "kid": 0.026193,
+      "kid_std": 0.001484,
+      "coverage": 0.4349,
+      "density": 0.5637,
+      "recall": 0.2273,
+      "vendi": 4.8635,
+      "copy_rate": 0.0104,
+      "ctr_cardiomegaly": 0.5428,
+      "ctr_normal": 0.4591,
+      "ctr_gap": 0.0837,
+      "ctr_gap_real": 0.0767,
+      "ctr_gap_retained": 1.0917,
+      "ctr_seg_fail": 0.003
+    }
+  ]
+}

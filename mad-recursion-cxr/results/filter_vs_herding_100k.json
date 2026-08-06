@@ -1,0 +1,52 @@
+{
+  "ckpt": "C:\\Users\\Tonkid\\Downloads\\runs\\cardio_real_alldev_cap06\\gen0\\checkpoints\\final.pt",
+  "n_pool": 100000,
+  "n_keep": 10000,
+  "none_n": 25000,
+  "primary": "cardiomegaly",
+  "before_after_note": "improvement measured at matched n: random(10k) -> filtered(10k)",
+  "rows": [
+    {
+      "name": "none (unfiltered, n=25000)",
+      "n": 25000,
+      "fid": 30.141,
+      "kid": 0.026916,
+      "kid_std": 0.001677
+    },
+    {
+      "name": "herding (v3)",
+      "n": 10000,
+      "fid": 16.826,
+      "kid": 0.005455,
+      "kid_std": 0.000263
+    },
+    {
+      "name": "herding (v4)",
+      "n": 10000,
+      "fid": 23.976,
+      "kid": 0.014525,
+      "kid_std": 0.000663
+    },
+    {
+      "name": "herding (XRV x-space)",
+      "n": 10000,
+      "fid": 31.711,
+      "kid": 0.025835,
+      "kid_std": 0.0014
+    },
+    {
+      "name": "mem + herding",
+      "n": 10000,
+      "fid": 16.826,
+      "kid": 0.00545,
+      "kid_std": 0.000261
+    },
+    {
+      "name": "random (control)",
+      "n": 10000,
+      "fid": 30.818,
+      "kid": 0.02714,
+      "kid_std": 0.00162
+    }
+  ]
+}

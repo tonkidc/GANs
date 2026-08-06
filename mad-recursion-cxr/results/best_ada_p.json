@@ -1,0 +1,39 @@
+{
+  "kimg": 500,
+  "best_p": 0.6,
+  "fid_ref": "clean-alldev balanced, 2500/class",
+  "sweep": {
+    "0.4": {
+      "fid": 60.661,
+      "kid": 0.064546,
+      "kid_std": 0.002227,
+      "n_real": 5000,
+      "n_fake": 5000,
+      "kid_subset": 1000
+    },
+    "0.6": {
+      "fid": 58.591,
+      "kid": 0.059686,
+      "kid_std": 0.002088,
+      "n_real": 5000,
+      "n_fake": 5000,
+      "kid_subset": 1000
+    },
+    "0.8": {
+      "fid": 61.761,
+      "kid": 0.066675,
+      "kid_std": 0.002517,
+      "n_real": 5000,
+      "n_fake": 5000,
+      "kid_subset": 1000
+    },
+    "1.0": {
+      "fid": 74.228,
+      "kid": 0.084302,
+      "kid_std": 0.002766,
+      "n_real": 5000,
+      "n_fake": 5000,
+      "kid_subset": 1000
+    }
+  }
+}

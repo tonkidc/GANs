@@ -1,0 +1,10 @@
+{
+  "checkpoint": "C:\\Users\\Tonkid\\Downloads\\runs\\cardio_final_crop_p06\\gen0\\checkpoints\\kimg00500.pt",
+  "kimg": 500,
+  "p_max": 0.6,
+  "fid_ref": "data_cardio_final_crop (CROPPED), 2500/class",
+  "not_comparable_to": "cap06 FID 32.38 (uncropped reference)",
+  "fid": 44.604,
+  "kid": 0.042607,
+  "kid_std": 0.001812
+}

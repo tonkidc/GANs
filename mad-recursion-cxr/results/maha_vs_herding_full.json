@@ -1,0 +1,66 @@
+{
+  "pool": "C:\\Users\\Tonkid\\Downloads\\runs\\cardio_mad_A\\gen0\\pool100k",
+  "n_keep": 10000,
+  "maha_drop": 0.05,
+  "k": 5,
+  "n_real_ref": 5000,
+  "is_caveat": "Inception Score uses ImageNet logits - not meaningful for CXR",
+  "rows": [
+    {
+      "name": "none (unfiltered)",
+      "n": 25000,
+      "fid": 30.141,
+      "kid": 0.026616,
+      "kid_std": 0.001486,
+      "is": 2.3415,
+      "is_std": 0.0223,
+      "coverage": 0.6044,
+      "density": 0.697,
+      "recall": 0.115,
+      "vendi": 4.9533,
+      "n_div": 10000
+    },
+    {
+      "name": "random (control)",
+      "n": 10000,
+      "fid": 30.818,
+      "kid": 0.026988,
+      "kid_std": 0.00144,
+      "is": 2.3373,
+      "is_std": 0.0477,
+      "coverage": 0.6146,
+      "density": 0.6945,
+      "recall": 0.1188,
+      "vendi": 4.9353,
+      "n_div": 10000
+    },
+    {
+      "name": "herding (v3)",
+      "n": 10000,
+      "fid": 16.826,
+      "kid": 0.00545,
+      "kid_std": 0.000269,
+      "is": 2.3133,
+      "is_std": 0.0426,
+      "coverage": 0.7994,
+      "density": 1.0309,
+      "recall": 0.1266,
+      "vendi": 5.1408,
+      "n_div": 10000
+    },
+    {
+      "name": "PCA-Mahalanobis + herding",
+      "n": 10000,
+      "fid": 16.723,
+      "kid": 0.005506,
+      "kid_std": 0.000253,
+      "is": 2.2859,
+      "is_std": 0.0412,
+      "coverage": 0.7996,
+      "density": 1.0203,
+      "recall": 0.1258,
+      "vendi": 5.1425,
+      "n_div": 10000
+    }
+  ]
+}

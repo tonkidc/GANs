@@ -1,0 +1,9 @@
+{
+  "checkpoint": "C:\\Users\\Tonkid\\Downloads\\runs\\cardio_real_alldev_cap06\\gen0\\checkpoints\\kimg01000.pt",
+  "kimg": 1000,
+  "p_max": 0.6,
+  "fid_ref": "clean-alldev balanced, 2500/class",
+  "fid": 32.382,
+  "kid": 0.024378,
+  "kid_std": 0.00109
+}

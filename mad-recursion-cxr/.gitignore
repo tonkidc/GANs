@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------------------
+# DATA — never commit. MIMIC-CXR is credentialed-access under a PhysioNet DUA;
+# redistributing images or anything derived from them (including filenames,
+# which embed subject_id/study_id) is a violation.
+# ---------------------------------------------------------------------------
+data/
+data_*/
+runs/
+kept_sets/
+probe_*/
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+manifest*.csv
+*.csv
+
+# feature caches (derived from patient images)
+feat_cache/
+**/feat_cache/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ---------------------------------------------------------------------------
+# Logs / scratch
+# ---------------------------------------------------------------------------
+*.log
+scratch/
+tmp/

@@ -1,0 +1,30 @@
+{
+  "kimg": 600,
+  "fid_ref": "data_cardio_final_crop (CROPPED), 2500/class",
+  "rows": [
+    {
+      "name": "capped  (p_max=0.6)",
+      "kimg": 600,
+      "n": 5000,
+      "fid": 37.381,
+      "kid": 0.034787,
+      "kid_std": 0.001541,
+      "coverage": 0.4536,
+      "density": 0.4391,
+      "recall": 0.1048,
+      "vendi": 4.5192
+    },
+    {
+      "name": "adaptive (p_max=1.0)",
+      "kimg": 600,
+      "n": 5000,
+      "fid": 43.207,
+      "kid": 0.04252,
+      "kid_std": 0.001803,
+      "coverage": 0.3838,
+      "density": 0.3722,
+      "recall": 0.082,
+      "vendi": 4.1819
+    }
+  ]
+}

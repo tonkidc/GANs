@@ -1,0 +1,40 @@
+{
+  "class": "cardiomegaly",
+  "n_keep": 7047,
+  "maha_drop": 0.1,
+  "rows": [
+    {
+      "name": "random (control)",
+      "n": 7047,
+      "fid": 31.188,
+      "kid": 0.026998,
+      "kid_std": 0.001546,
+      "coverage": 0.574,
+      "density": 0.6968,
+      "recall": 0.1338,
+      "vendi": 4.9026
+    },
+    {
+      "name": "herding (v3)",
+      "n": 7047,
+      "fid": 16.702,
+      "kid": 0.004835,
+      "kid_std": 0.000239,
+      "coverage": 0.772,
+      "density": 1.0389,
+      "recall": 0.1462,
+      "vendi": 5.1827
+    },
+    {
+      "name": "PCA-Mahalanobis 10% + herding",
+      "n": 7047,
+      "fid": 16.577,
+      "kid": 0.004948,
+      "kid_std": 0.000248,
+      "coverage": 0.7694,
+      "density": 1.0203,
+      "recall": 0.1464,
+      "vendi": 5.1833
+    }
+  ]
+}
